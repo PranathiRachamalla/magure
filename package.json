@@ -1,0 +1,21 @@
+{
+  "name": "backend-assignment",
+  "version": "1.0.0",
+  "description": "assignment",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "pranathi",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "helmet": "^3.15.1",
+    "mongodb": "^3.1.13",
+    "mongoose": "^5.4.14",
+    "morgan": "^1.9.1"
+  }
+}
